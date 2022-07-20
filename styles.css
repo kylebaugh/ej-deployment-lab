@@ -15,8 +15,8 @@ p{
     justify-content: center;
     font-size: x-large;
     }
-    
-button{
+
+#buy{
     border: 5px solid #FFFF00;
     display: flex;
     justify-content: center;
