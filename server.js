@@ -6,16 +6,16 @@ const app = express()
 const port = process.env.PORT || 4005
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../page.html'))
+    res.sendFile(path.join(__dirname, './page.html'))
 }
 )
 
 app.get('/js', (req, res) => {
-    res.sendFile(path.join(__dirname, '../main.js'))
+    res.sendFile(path.join(__dirname, './main.js'))
 })
 
 app.get('/css', (req, res) => {
-    res.sendFile(path.join(__dirname, '../styles.css'))
+    res.sendFile(path.join(__dirname, './styles.css'))
 })
 
 app.listen(port, () =>{
