@@ -3,26 +3,55 @@ header{
     display: flex;
     justify-content: center;
     font-size:xx-large;
+    color:#FFFF00
     }
 
 img{
      border: 5px solid #FFFF00;
      display: flex;
      justify-content: center;
+     margin-top: 20px;
     }
 p{
     border: 5px solid #FFFF00;
     display: flex;
     justify-content: center;
     font-size: xx-large;
+    color:#FFFF00
     }
 
 #buy{
     border: 5px solid #FFFF00;
 }
 
-body {
-    background-image: url('https://deluxe.news/wp-content/uploads/2022/05/1652779701_Final-Fantasy-7-Remake-Shares-Concept-Art-Of-Cloud-Strifes.jpg');
-    background-repeat: no-repeat;
-    object-fit: cover;
+html {
+    background: url('https://deluxe.news/wp-content/uploads/2022/05/1652779701_Final-Fantasy-7-Remake-Shares-Concept-Art-Of-Cloud-Strifes.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
+
+  h1{
+    color:#FFFF00
+  }
+
+  h2{
+    
+    display: flex;
+    justify-content: center;
+    font-size:xx-large;
+    color:#FFFF00
+    }
+
+    h3{
+        border: 5px solid #FFFF00;
+        display: flex;
+        justify-content: center;
+        font-size:xx-large;
+        color:#FFFF00
+        }
+
+
+
+  
