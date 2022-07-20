@@ -2,6 +2,7 @@ header{
     border: 5px solid #FFFF00;
     display: flex;
     justify-content: center;
+    font-size:xx-large;
     }
 
 img{
@@ -13,7 +14,7 @@ p{
     border: 5px solid #FFFF00;
     display: flex;
     justify-content: center;
-    font-size: x-large;
+    font-size: xx-large;
     }
 
 #buy{
