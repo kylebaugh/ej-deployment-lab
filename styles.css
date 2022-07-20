@@ -3,3 +3,15 @@ header{
     display: flex;
     justify-content: center;
     }
+
+img{
+     border: 5px solid #FFFF00;
+     display: flex;
+     justify-content: center;
+    }
+p{
+    border: 5px solid #FFFF00;
+    display: flex;
+    justify-content: center;
+    }
+        
