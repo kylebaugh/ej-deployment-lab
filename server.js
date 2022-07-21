@@ -5,8 +5,8 @@ const app = express()
 
 const port = process.env.PORT || 4005
 
-var Rollbar = require("rollbar");
-var rollbar = new Rollbar({
+let Rollbar = require("rollbar");
+let rollbar = new Rollbar({
   accessToken: 'b18a0032b8f7437eb56d39e245024298',
   captureUncaught: true,
   captureUnhandledRejections: true

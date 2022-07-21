@@ -1,3 +1,10 @@
+let Rollbar = require("rollbar");
+let rollbar = new Rollbar({
+  accessToken: 'b18a0032b8f7437eb56d39e245024298',
+  captureUncaught: true,
+  captureUnhandledRejections: true
+});
+
 
 let button = document.querySelector("#buy")
 let buttonTwo = document.querySelector("#disclaimer")
