@@ -21,7 +21,12 @@ p{
     }
 
 #buy{
-    border: 5px solid #FFFF00;
+    
+    margin-bottom: 20px;
+}
+
+#disclaimer{
+    margin-bottom:20px
 }
 
 html {
