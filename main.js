@@ -1,6 +1,6 @@
 let Rollbar = require("rollbar");
 let rollbar = new Rollbar({
-  accessToken: 'b18a0032b8f7437eb56d39e245024298',
+  accessToken: '61a8299df9294656ab54d3e06c247f14',
   captureUncaught: true,
   captureUnhandledRejections: true
 });
@@ -18,6 +18,7 @@ disclaimerButton = () => {
     alert("I am not responsible for any broken personal objects for trying to buy LOL")
 }
 
+rollbar.log('front hit')
 
 
 button.addEventListener('click', buyButton)
