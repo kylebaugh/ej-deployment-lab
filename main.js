@@ -9,12 +9,12 @@ let rollbar = new Rollbar({
 let button = document.querySelector("#buy")
 let buttonTwo = document.querySelector("#disclaimer")
 buyButton = () => {
-    rollbar.log("user tried to buy the sword")
+    // rollbar.log("user tried to buy the sword")
     alert("Siiiiike you don't got the power for this sweet baby! LOL")
 }
 
 disclaimerButton = () => {
-    rollbar.log('lol the user got trolled')
+    // rollbar.log('lol the user got trolled')
     alert("I am not responsible for any broken personal objects for trying to buy LOL")
 }
 
