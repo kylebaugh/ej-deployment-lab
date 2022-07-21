@@ -5,6 +5,13 @@ const app = express()
 
 const port = process.env.PORT || 4005
 
+let Rollbar = require('rollbar')
+let rollbar = new Rollbar({
+  accessToken: 'b18a0032b8f7437eb56d39e245024298',
+  captureUncaught: true,
+  captureUnhandledRejections: true,
+})
+
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, './page.html'))
 })
